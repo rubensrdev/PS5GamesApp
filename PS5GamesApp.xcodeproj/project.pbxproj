@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		45C2A8172CE55A2400B002DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C2A8112CE55A2400B002DF /* Preview Assets.xcassets */; };
+		45C2A8182CE55A2400B002DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C2A8132CE55A2400B002DF /* Assets.xcassets */; };
+		45C2A8192CE55A2400B002DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8142CE55A2400B002DF /* ContentView.swift */; };
+		45C2A81A2CE55A2400B002DF /* PS5GamesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8152CE55A2400B002DF /* PS5GamesAppApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		45C2A8002CE548D700B002DF /* PS5GamesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS5GamesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C2A8112CE55A2400B002DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45C2A8132CE55A2400B002DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45C2A8142CE55A2400B002DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45C2A8152CE55A2400B002DF /* PS5GamesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PS5GamesAppApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		45C2A8022CE548D700B002DF /* PS5GamesApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PS5GamesApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		45C2A7FD2CE548D700B002DF /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		45C2A7F72CE548D700B002DF = {
 			isa = PBXGroup;
 			children = (
-				45C2A8022CE548D700B002DF /* PS5GamesApp */,
+				45C2A8162CE55A2400B002DF /* PS5GamesApp */,
 				45C2A8012CE548D700B002DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				45C2A8002CE548D700B002DF /* PS5GamesApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		45C2A8122CE55A2400B002DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45C2A8112CE55A2400B002DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45C2A8162CE55A2400B002DF /* PS5GamesApp */ = {
+			isa = PBXGroup;
+			children = (
+				45C2A8142CE55A2400B002DF /* ContentView.swift */,
+				45C2A8152CE55A2400B002DF /* PS5GamesAppApp.swift */,
+				45C2A8132CE55A2400B002DF /* Assets.xcassets */,
+				45C2A8122CE55A2400B002DF /* Preview Content */,
+			);
+			path = PS5GamesApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				45C2A8022CE548D700B002DF /* PS5GamesApp */,
 			);
 			name = PS5GamesApp;
 			packageProductDependencies = (
@@ -109,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C2A8172CE55A2400B002DF /* Preview Assets.xcassets in Resources */,
+				45C2A8182CE55A2400B002DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C2A8192CE55A2400B002DF /* ContentView.swift in Sources */,
+				45C2A81A2CE55A2400B002DF /* PS5GamesAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.ruben.PS5GamesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -297,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.ruben.PS5GamesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
