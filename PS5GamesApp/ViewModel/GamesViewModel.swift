@@ -13,13 +13,17 @@ final class GamesViewModel: ObservableObject {
     
     @Published var games: Games {
         didSet {
-            repository.saveJSON(games: games)
+           try? repository.saveJSON(games)
         }
     }
     
     init(repository: RepositoryProtocol = Repository()) {
         self.repository = repository
-        self.games = repository.loadJSON()
+        do {
+            self.games = try repository.loadJSON()
+        } catch {
+            self.games = []
+        }
     }
     
 }

@@ -17,6 +17,7 @@
 		45C2A8252CE9137D00B002DF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8242CE9137D00B002DF /* Repository.swift */; };
 		45C2A8282CE915C400B002DF /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8272CE915C400B002DF /* GamesViewModel.swift */; };
 		45C2A82A2CE9228E00B002DF /* RepositoryPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8292CE9228E00B002DF /* RepositoryPreview.swift */; };
+		45C2A82C2CE923CD00B002DF /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A82B2CE923CD00B002DF /* RepositoryProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		45C2A8242CE9137D00B002DF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		45C2A8272CE915C400B002DF /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
 		45C2A8292CE9228E00B002DF /* RepositoryPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryPreview.swift; sourceTree = "<group>"; };
+		45C2A82B2CE923CD00B002DF /* RepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		45C2A8232CE9136D00B002DF /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				45C2A82B2CE923CD00B002DF /* RepositoryProtocol.swift */,
 				45C2A8242CE9137D00B002DF /* Repository.swift */,
 			);
 			path = Repository;
@@ -198,6 +201,7 @@
 				45C2A81A2CE55A2400B002DF /* PS5GamesAppApp.swift in Sources */,
 				45C2A8282CE915C400B002DF /* GamesViewModel.swift in Sources */,
 				45C2A8252CE9137D00B002DF /* Repository.swift in Sources */,
+				45C2A82C2CE923CD00B002DF /* RepositoryProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
