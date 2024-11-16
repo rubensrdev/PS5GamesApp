@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "god-of-war-ragnarok.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "god-of-war-ragnarok@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "god-of-war-ragnarok@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,137 @@
+[
+    {
+        "title": "Elden Ring",
+        "genre": "RPG",
+        "developer": "FromSoftware",
+        "releaseDate": "2022-02-25",
+        "rating": 9.8,
+        "image": "elden-ring",
+        "developerImage": "from-software"
+    },
+    {
+        "title": "God of War: Ragnarok",
+        "genre": "Action-Adventure",
+        "developer": "Santa Monica Studio",
+        "releaseDate": "2022-11-09",
+        "rating": 9.6,
+        "image": "god-of-war-ragnarok",
+        "developerImage": "santa-monica"
+    },
+    {
+        "title": "God of War",
+        "genre": "Action-Adventure",
+        "developer": "Santa Monica Studio",
+        "releaseDate": "2018-04-20",
+        "rating": 9.7,
+        "image": "god-of-war",
+        "developerImage": "santa-monica"
+    },
+    {
+        "title": "Horizon Forbidden West",
+        "genre": "Action RPG",
+        "developer": "Guerrilla Games",
+        "releaseDate": "2022-02-18",
+        "rating": 9.3,
+        "image": "horizon-forbiden-west",
+        "developerImage": "guerrilla"
+    },
+    {
+        "title": "Horizon Zero Dawn Remastered",
+        "genre": "Action RPG",
+        "developer": "Guerrilla Games",
+        "releaseDate": "2024-10-03",
+        "rating": 9.2,
+        "image": "horizon-remastered",
+        "developerImage": "guerrilla"
+    },
+    {
+        "title": "Spider-Man: Miles Morales",
+        "genre": "Action",
+        "developer": "Insomniac Games",
+        "releaseDate": "2020-11-12",
+        "rating": 9.0,
+        "image": "spiderman-miles-morales",
+        "developerImage": "insomniac"
+    },
+    {
+        "title": "Marvel's Spider-Man 2",
+        "genre": "Action",
+        "developer": "Insomniac Games",
+        "releaseDate": "2022-09-07",
+        "rating": 9.4,
+        "image": "spiderman-2",
+        "developerImage": "insomniac"
+    },
+    {
+        "title": "Returnal",
+        "genre": "Shooter",
+        "developer": "Housemarque",
+        "releaseDate": "2021-04-30",
+        "rating": 8.7,
+        "image": "returnal",
+        "developerImage": "housemarque"
+    },
+    {
+        "title": "Demon's Souls",
+        "genre": "Action RPG",
+        "developer": "Bluepoint Games",
+        "releaseDate": "2020-11-12",
+        "rating": 9.4,
+        "image": "demon-souls",
+        "developerImage": "bluepoint"
+    },
+    {
+        "title": "Final Fantasy XVI",
+        "genre": "RPG",
+        "developer": "Square Enix",
+        "releaseDate": "2023-06-22",
+        "rating": 9.1,
+        "image": "final-fantasy-16",
+        "developerImage": "square-enix"
+    },
+    {
+        "title": "Final Fantasy VII Remake",
+        "genre": "RPG",
+        "developer": "Square Enix",
+        "releaseDate": "2020-04-10",
+        "rating": 9.2,
+        "image": "final-fantasy-remake",
+        "developerImage": "square-enix"
+    },
+    {
+        "title": "Ghost of Tsushima: Director's Cut",
+        "genre": "Action-Adventure",
+        "developer": "Sucker Punch Productions",
+        "releaseDate": "2021-08-20",
+        "rating": 9.2,
+        "image": "ghost-of-thusima-director-cut",
+        "developerImage": "sucker-punch"
+    },
+    {
+        "title": "Ghost of Tsushima",
+        "genre": "Action-Adventure",
+        "developer": "Sucker Punch Productions",
+        "releaseDate": "2020-07-17",
+        "rating": 9.3,
+        "image": "ghost-of-thusima",
+        "developerImage": "sucker-punch"
+    },
+    {
+        "title": "The Last of Us Part I",
+        "genre": "Action-Adventure",
+        "developer": "Naughty Dog",
+        "releaseDate": "2022-09-02",
+        "rating": 9.5,
+        "image": "the-last-of-us-p1",
+        "developerImage": "naughty-dog"
+    },
+    {
+        "title": "The Last of Us Part II",
+        "genre": "Action-Adventure",
+        "developer": "Naughty Dog",
+        "releaseDate": "2020-06-19",
+        "rating": 9.7,
+        "image": "the-last-of-us-p2",
+        "developerImage": "naughty-dog"
+    }
+]
