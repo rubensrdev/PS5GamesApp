@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @ObservedObject private var gamesVM = GamesViewModel()
+    @ObservedObject var gamesVM = GamesViewModel()
     
     var body: some View {
         NavigationStack {
@@ -23,5 +23,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(gamesVM: GamesViewModel(repository: RepositoryPreview()))
 }

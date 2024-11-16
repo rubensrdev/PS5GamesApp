@@ -7,27 +7,32 @@
 
 import Foundation
 
-struct Repository {
-    
-    
-    var url: URL {
-        Bundle.main.url(forResource: "games", withExtension: "json")!
-    }
-    
-    func loadJSON() -> [Game] {
+protocol RepositoryProtocol {
+    var url: URL { get }
+    func loadJSON() -> Games
+    func saveJSON(games: Games)
+}
+
+extension RepositoryProtocol {
+    func loadJSON() -> Games {
         do {
             let data = try Data(contentsOf: url)
-            print("data cargada ✅")
             return try JSONDecoder().decode(Games.self, from: data)
         } catch {
             print(error)
         }
-        print("data no cargada ❌")
         return []
     }
     
     func saveJSON(games: Games) {
         
     }
-    
 }
+
+struct Repository: RepositoryProtocol {
+    var url: URL {
+        Bundle.main.url(forResource: "games", withExtension: "json")!
+    }
+}
+
+

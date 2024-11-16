@@ -9,7 +9,7 @@ import Foundation
 
 final class GamesViewModel: ObservableObject {
     
-    let repository: Repository
+    let repository: RepositoryProtocol
     
     @Published var games: Games {
         didSet {
@@ -17,7 +17,7 @@ final class GamesViewModel: ObservableObject {
         }
     }
     
-    init(repository: Repository = .init()) {
+    init(repository: RepositoryProtocol = Repository()) {
         self.repository = repository
         self.games = repository.loadJSON()
     }

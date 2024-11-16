@@ -16,6 +16,7 @@
 		45C2A8222CE910DF00B002DF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8212CE910D900B002DF /* Game.swift */; };
 		45C2A8252CE9137D00B002DF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8242CE9137D00B002DF /* Repository.swift */; };
 		45C2A8282CE915C400B002DF /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8272CE915C400B002DF /* GamesViewModel.swift */; };
+		45C2A82A2CE9228E00B002DF /* RepositoryPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8292CE9228E00B002DF /* RepositoryPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		45C2A8212CE910D900B002DF /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		45C2A8242CE9137D00B002DF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		45C2A8272CE915C400B002DF /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		45C2A8292CE9228E00B002DF /* RepositoryPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		45C2A8122CE55A2400B002DF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				45C2A8292CE9228E00B002DF /* RepositoryPreview.swift */,
 				45C2A8112CE55A2400B002DF /* Preview Assets.xcassets */,
 				45C2A81E2CE90E0100B002DF /* gamesPreview.json */,
 			);
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C2A82A2CE9228E00B002DF /* RepositoryPreview.swift in Sources */,
 				45C2A8192CE55A2400B002DF /* ContentView.swift in Sources */,
 				45C2A8222CE910DF00B002DF /* Game.swift in Sources */,
 				45C2A81A2CE55A2400B002DF /* PS5GamesAppApp.swift in Sources */,
