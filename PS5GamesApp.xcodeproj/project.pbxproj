@@ -14,6 +14,8 @@
 		45C2A81D2CE90DF500B002DF /* games.json in Resources */ = {isa = PBXBuildFile; fileRef = 45C2A81C2CE90DF500B002DF /* games.json */; };
 		45C2A81F2CE90E0100B002DF /* gamesPreview.json in Resources */ = {isa = PBXBuildFile; fileRef = 45C2A81E2CE90E0100B002DF /* gamesPreview.json */; };
 		45C2A8222CE910DF00B002DF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8212CE910D900B002DF /* Game.swift */; };
+		45C2A8252CE9137D00B002DF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8242CE9137D00B002DF /* Repository.swift */; };
+		45C2A8282CE915C400B002DF /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8272CE915C400B002DF /* GamesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		45C2A81C2CE90DF500B002DF /* games.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = games.json; sourceTree = "<group>"; };
 		45C2A81E2CE90E0100B002DF /* gamesPreview.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gamesPreview.json; sourceTree = "<group>"; };
 		45C2A8212CE910D900B002DF /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		45C2A8242CE9137D00B002DF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		45C2A8272CE915C400B002DF /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,6 @@
 			children = (
 				45C2A8112CE55A2400B002DF /* Preview Assets.xcassets */,
 				45C2A81E2CE90E0100B002DF /* gamesPreview.json */,
-				45C2A8132CE55A2400B002DF /* Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -69,9 +72,12 @@
 			children = (
 				45C2A8142CE55A2400B002DF /* ContentView.swift */,
 				45C2A8152CE55A2400B002DF /* PS5GamesAppApp.swift */,
+				45C2A8262CE915B000B002DF /* ViewModel */,
+				45C2A8232CE9136D00B002DF /* Repository */,
 				45C2A8202CE910BF00B002DF /* Model */,
 				45C2A81B2CE90DE000B002DF /* Resources */,
 				45C2A8122CE55A2400B002DF /* Preview Content */,
+				45C2A8132CE55A2400B002DF /* Assets.xcassets */,
 			);
 			path = PS5GamesApp;
 			sourceTree = "<group>";
@@ -90,6 +96,22 @@
 				45C2A8212CE910D900B002DF /* Game.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		45C2A8232CE9136D00B002DF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				45C2A8242CE9137D00B002DF /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		45C2A8262CE915B000B002DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45C2A8272CE915C400B002DF /* GamesViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +192,8 @@
 				45C2A8192CE55A2400B002DF /* ContentView.swift in Sources */,
 				45C2A8222CE910DF00B002DF /* Game.swift in Sources */,
 				45C2A81A2CE55A2400B002DF /* PS5GamesAppApp.swift in Sources */,
+				45C2A8282CE915C400B002DF /* GamesViewModel.swift in Sources */,
+				45C2A8252CE9137D00B002DF /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

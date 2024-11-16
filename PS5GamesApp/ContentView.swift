@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject private var gamesVM = GamesViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                ForEach(gamesVM.games) { game in
+                    Text(game.title)
+                }
+            }
         }
-        .padding()
     }
 }
 

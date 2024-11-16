@@ -6,7 +6,7 @@
 //
 import Foundation
 
-struct Game: Codable {
+struct Game: Codable, Identifiable {
     var id: UUID
     let title: String
     let genre: String
