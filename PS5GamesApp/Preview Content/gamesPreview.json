@@ -1,3 +1,76 @@
 [
-    
-]
+    {
+        "id": "b0a8b918-3cfc-41c4-9887-d3e5e10d6a9d",
+        "title": "Elden Ring",
+        "genre": "RPG",
+        "developer": "FromSoftware",
+        "releaseDate": "2022-02-25",
+        "rating": 9.8,
+        "image": "elden-ring",
+        "developerImage": "from-software",
+        "pressComments": [
+            "A breathtaking achievement in open-world design.",
+            "Challenging yet rewarding gameplay.",
+            "A masterpiece from FromSoftware."
+        ]
+    },
+    {
+        "id": "4ae54d29-e306-4a54-97dc-fc888693bde2",
+        "title": "God of War: Ragnarok",
+        "genre": "Action-Adventure",
+        "developer": "Santa Monica Studio",
+        "releaseDate": "2022-11-09",
+        "rating": 9.6,
+        "image": "god-of-war-ragnarok",
+        "developerImage": "santa-monica",
+        "pressComments": [
+            "An emotional and epic continuation of Kratos' saga.",
+            "Incredible visuals and combat system.",
+            "A must-play for any PlayStation owner."
+        ]
+    },
+    {
+        "id": "a589d072-f53b-46d2-a69e-f0cd355b426e",
+        "title": "God of War",
+        "genre": "Action-Adventure",
+        "developer": "Santa Monica Studio",
+        "releaseDate": "2018-04-20",
+        "rating": 9.7,
+        "image": "god-of-war",
+        "developerImage": "santa-monica",
+        "pressComments": [
+            "Redefines what an action-adventure game can be.",
+            "Deep and emotional storytelling.",
+            "A stunning technical achievement."
+        ]
+    },
+    {
+        "id": "06bc5468-101f-488b-b469-0045c3a856b5",
+        "title": "Final Fantasy XVI",
+        "genre": "RPG",
+        "developer": "Square Enix",
+        "releaseDate": "2023-06-22",
+        "rating": 9.1,
+        "image": "final-fantasy-16",
+        "developerImage": "square-enix",
+        "pressComments": [
+            "A darker and more mature Final Fantasy.",
+            "Innovative combat system for the series.",
+            "Captivating story and memorable characters."
+        ]
+    },
+    {
+        "id": "d26f45c2-2fd5-474f-a180-abe5fcdb77ed",
+        "title": "Final Fantasy VII Remake",
+        "genre": "RPG",
+        "developer": "Square Enix",
+        "releaseDate": "2020-04-10",
+        "rating": 9.2,
+        "image": "final-fantasy-remake",
+        "developerImage": "square-enix",
+        "pressComments": [
+            "A nostalgic yet fresh take on a classic.",
+            "Beautifully reimagined visuals and music.",
+            "One of the best remakes ever made."
+        ]
+    }
