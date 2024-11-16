@@ -6,7 +6,7 @@
 //
 import Foundation
 
-struct Game {
+struct Game: Codable {
     var id: UUID
     let title: String
     let genre: String
@@ -15,6 +15,7 @@ struct Game {
     let rating: Double
     let image: String
     let developerImage: String
+    let pressComments: [String]
 }
 
 typealias Games = [Game]

@@ -6,7 +6,12 @@
         "releaseDate": "2022-02-25",
         "rating": 9.8,
         "image": "elden-ring",
-        "developerImage": "from-software"
+        "developerImage": "from-software",
+        "pressComments": [
+            "A breathtaking achievement in open-world design.",
+            "Challenging yet rewarding gameplay.",
+            "A masterpiece from FromSoftware."
+        ]
     },
     {
         "title": "God of War: Ragnarok",
@@ -15,7 +20,12 @@
         "releaseDate": "2022-11-09",
         "rating": 9.6,
         "image": "god-of-war-ragnarok",
-        "developerImage": "santa-monica"
+        "developerImage": "santa-monica",
+        "pressComments": [
+            "An emotional and epic continuation of Kratos' saga.",
+            "Incredible visuals and combat system.",
+            "A must-play for any PlayStation owner."
+        ]
     },
     {
         "title": "God of War",
@@ -24,7 +34,12 @@
         "releaseDate": "2018-04-20",
         "rating": 9.7,
         "image": "god-of-war",
-        "developerImage": "santa-monica"
+        "developerImage": "santa-monica",
+        "pressComments": [
+            "Redefines what an action-adventure game can be.",
+            "Deep and emotional storytelling.",
+            "A stunning technical achievement."
+        ]
     },
     {
         "title": "Horizon Forbidden West",
@@ -33,7 +48,12 @@
         "releaseDate": "2022-02-18",
         "rating": 9.3,
         "image": "horizon-forbiden-west",
-        "developerImage": "guerrilla"
+        "developerImage": "guerrilla",
+        "pressComments": [
+            "An expansive and breathtaking world to explore.",
+            "Improved gameplay mechanics from its predecessor.",
+            "A visual masterpiece for the PS5."
+        ]
     },
     {
         "title": "Horizon Zero Dawn Remastered",
@@ -42,7 +62,12 @@
         "releaseDate": "2024-10-03",
         "rating": 9.2,
         "image": "horizon-remastered",
-        "developerImage": "guerrilla"
+        "developerImage": "guerrilla",
+        "pressComments": [
+            "A modern update to a beloved classic.",
+            "Impressive visual upgrades for next-gen players.",
+            "A must-play for newcomers and fans alike."
+        ]
     },
     {
         "title": "Spider-Man: Miles Morales",
@@ -51,7 +76,12 @@
         "releaseDate": "2020-11-12",
         "rating": 9.0,
         "image": "spiderman-miles-morales",
-        "developerImage": "insomniac"
+        "developerImage": "insomniac",
+        "pressComments": [
+            "A shorter yet impactful Spider-Man experience.",
+            "Diverse and fun combat mechanics.",
+            "Miles Morales shines as the protagonist."
+        ]
     },
     {
         "title": "Marvel's Spider-Man 2",
@@ -60,7 +90,12 @@
         "releaseDate": "2022-09-07",
         "rating": 9.4,
         "image": "spiderman-2",
-        "developerImage": "insomniac"
+        "developerImage": "insomniac",
+        "pressComments": [
+            "A worthy sequel with dual protagonists.",
+            "Visually stunning with engaging gameplay.",
+            "Insomniac continues to impress with Spider-Man."
+        ]
     },
     {
         "title": "Returnal",
@@ -69,7 +104,12 @@
         "releaseDate": "2021-04-30",
         "rating": 8.7,
         "image": "returnal",
-        "developerImage": "housemarque"
+        "developerImage": "housemarque",
+        "pressComments": [
+            "A haunting and atmospheric roguelike experience.",
+            "Challenging yet rewarding gameplay loops.",
+            "Housemarque excels with Returnal's design."
+        ]
     },
     {
         "title": "Demon's Souls",
@@ -78,7 +118,12 @@
         "releaseDate": "2020-11-12",
         "rating": 9.4,
         "image": "demon-souls",
-        "developerImage": "bluepoint"
+        "developerImage": "bluepoint",
+        "pressComments": [
+            "A faithful remake of the classic.",
+            "Stunning graphics showcase the power of PS5.",
+            "Perfect for both veterans and newcomers."
+        ]
     },
     {
         "title": "Final Fantasy XVI",
@@ -87,7 +132,12 @@
         "releaseDate": "2023-06-22",
         "rating": 9.1,
         "image": "final-fantasy-16",
-        "developerImage": "square-enix"
+        "developerImage": "square-enix",
+        "pressComments": [
+            "A darker and more mature Final Fantasy.",
+            "Innovative combat system for the series.",
+            "Captivating story and memorable characters."
+        ]
     },
     {
         "title": "Final Fantasy VII Remake",
@@ -96,7 +146,12 @@
         "releaseDate": "2020-04-10",
         "rating": 9.2,
         "image": "final-fantasy-remake",
-        "developerImage": "square-enix"
+        "developerImage": "square-enix",
+        "pressComments": [
+            "A nostalgic yet fresh take on a classic.",
+            "Beautifully reimagined visuals and music.",
+            "One of the best remakes ever made."
+        ]
     },
     {
         "title": "Ghost of Tsushima: Director's Cut",
@@ -105,7 +160,12 @@
         "releaseDate": "2021-08-20",
         "rating": 9.2,
         "image": "ghost-of-thusima-director-cut",
-        "developerImage": "sucker-punch"
+        "developerImage": "sucker-punch",
+        "pressComments": [
+            "A refined version of an already incredible game.",
+            "Iki Island expansion adds more depth.",
+            "One of the most beautiful open-world games."
+        ]
     },
     {
         "title": "Ghost of Tsushima",
@@ -114,7 +174,12 @@
         "releaseDate": "2020-07-17",
         "rating": 9.3,
         "image": "ghost-of-thusima",
-        "developerImage": "sucker-punch"
+        "developerImage": "sucker-punch",
+        "pressComments": [
+            "A love letter to samurai cinema.",
+            "Fluid combat and engaging world-building.",
+            "Sucker Punch's best game yet."
+        ]
     },
     {
         "title": "The Last of Us Part I",
@@ -123,7 +188,12 @@
         "releaseDate": "2022-09-02",
         "rating": 9.5,
         "image": "the-last-of-us-p1",
-        "developerImage": "naughty-dog"
+        "developerImage": "naughty-dog",
+        "pressComments": [
+            "A stunning remake of a modern classic.",
+            "Heartbreaking and immersive storytelling.",
+            "Naughty Dog's attention to detail is unparalleled."
+        ]
     },
     {
         "title": "The Last of Us Part II",
@@ -132,6 +202,11 @@
         "releaseDate": "2020-06-19",
         "rating": 9.7,
         "image": "the-last-of-us-p2",
-        "developerImage": "naughty-dog"
+        "developerImage": "naughty-dog",
+        "pressComments": [
+            "One of the most ambitious games ever made.",
+            "Unflinching and brutally honest storytelling.",
+            "Pushing the boundaries of interactive storytelling."
+        ]
     }
 ]
