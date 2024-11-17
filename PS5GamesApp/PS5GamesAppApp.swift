@@ -12,6 +12,9 @@ struct PS5GamesAppApp: App {
     var body: some Scene {
         WindowGroup {
             GamesView()
+                .onAppear {
+                    print("URL DOC directory: \(URL.documentsDirectory)")
+                }
         }
     }
 }

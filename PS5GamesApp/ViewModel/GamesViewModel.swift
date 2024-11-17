@@ -39,7 +39,14 @@ final class GamesViewModel: ObservableObject {
     }
     
     func deleteGame(indexSet: IndexSet) {
-        games.remove(atOffsets: indexSet)
+        if search.isEmpty {
+            games.remove(atOffsets: indexSet)
+        } else {
+            for index in indexSet {
+                let id = filteredGames[index].id
+                games.removeAll { $0.id == id }
+            }
+        }
     }
     
     func moveGame(indexSet: IndexSet, to: Int) {

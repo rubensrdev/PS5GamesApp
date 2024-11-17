@@ -13,7 +13,7 @@ struct GamesView: View {
     
     var body: some View {
         NavigationStack {
-            SearchBar(search: $gamesVM.search)
+            //SearchBar(search: $gamesVM.search)
             List {
                 ForEach(gamesVM.filteredGames) { game in
                     GameRow(game: game)
@@ -22,7 +22,7 @@ struct GamesView: View {
                 .onMove(perform: gamesVM.moveGame)
             }
             .navigationTitle("PS5 Games")
-            //.searchable(text: $gamesVM.search, prompt: "Search a game title")
+            .searchable(text: $gamesVM.search, prompt: "Search a game title")
         }
     }
 }
