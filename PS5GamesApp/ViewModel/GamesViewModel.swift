@@ -18,6 +18,7 @@ final class GamesViewModel: ObservableObject {
     }
     
     @Published var search: String = ""
+    @Published var orderOption: OrderOptions = .byId
     
     var filteredGames: Games {
         games.filter { game in
@@ -25,6 +26,20 @@ final class GamesViewModel: ObservableObject {
                 true
             } else {
                 game.title.localizedCaseInsensitiveContains(search)
+            }
+        }
+        .sorted { g1, g2 in
+            switch orderOption {
+            case .byTitleAsc:
+                g1.title < g2.title
+            case .byTitleDesc:
+                g1.title > g2.title
+            case .byDeveloper:
+                g1.developer < g2.developer
+            case .byReleaseDate:
+                g1.releaseDate < g2.releaseDate
+            case .byId:
+                g1.id < g2.id
             }
         }
     }

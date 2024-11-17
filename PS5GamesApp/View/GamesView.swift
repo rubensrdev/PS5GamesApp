@@ -23,6 +23,7 @@ struct GamesView: View {
             }
             .navigationTitle("PS5 Games")
             .searchable(text: $gamesVM.search, prompt: "Search a game title")
+            .orderButton(order: $gamesVM.orderOption)
         }
     }
 }
