@@ -18,7 +18,8 @@ extension Game {
         releaseDate: "2022-09-02",
         rating: 9.5,
         image: "the-last-of-us-p1",
-        developerImage: "naughty-dog", pressComments: [
+        developerImage: "naughty-dog",
+        pressComments: [
             "A stunning remake of a modern classic.",
             "Heartbreaking and immersive storytelling.",
             "Naughty Dog's attention to detail is unparalleled."

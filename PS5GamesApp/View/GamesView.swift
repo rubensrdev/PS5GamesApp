@@ -16,12 +16,17 @@ struct GamesView: View {
             //SearchBar(search: $gamesVM.search)
             List {
                 ForEach(gamesVM.filteredGames) { game in
-                    GameRow(game: game)
+                    NavigationLink(value: game) {
+                        GameRow(game: game)
+                    }
                 }
                 .onDelete(perform: gamesVM.deleteGame)
                 .onMove(perform: gamesVM.moveGame)
             }
             .navigationTitle("PS5 Games")
+            .navigationDestination(for: Game.self, destination: { game in
+                GameDetail(game: game)
+            })
             .searchable(text: $gamesVM.search, prompt: "Search a game title") {
                 ForEach(gamesVM.developers, id: \.self) { developer in
                     Text(developer)
