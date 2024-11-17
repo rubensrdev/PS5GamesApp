@@ -1,5 +1,20 @@
 [
     {
+        "id": "d8743d45-f19d-4c91-8db3-5a6a1e920f31",
+        "title": "The Last of Us Part I",
+        "genre": "Action-Adventure",
+        "developer": "Naughty Dog",
+        "releaseDate": "2022-09-02",
+        "rating": 9.5,
+        "image": "the-last-of-us-p1",
+        "developerImage": "naughty-dog",
+        "pressComments": [
+                "A stunning remake of a modern classic.",
+                "Heartbreaking and immersive storytelling.",
+                "Naughty Dog's attention to detail is unparalleled."
+            ]
+    },
+    {
         "id": "b0a8b918-3cfc-41c4-9887-d3e5e10d6a9d",
         "title": "Elden Ring",
         "genre": "RPG",
@@ -14,21 +29,7 @@
             "A masterpiece from FromSoftware."
         ]
     },
-    {
-        "id": "4ae54d29-e306-4a54-97dc-fc888693bde2",
-        "title": "God of War: Ragnarok",
-        "genre": "Action-Adventure",
-        "developer": "Santa Monica Studio",
-        "releaseDate": "2022-11-09",
-        "rating": 9.6,
-        "image": "god-of-war-ragnarok",
-        "developerImage": "santa-monica",
-        "pressComments": [
-            "An emotional and epic continuation of Kratos' saga.",
-            "Incredible visuals and combat system.",
-            "A must-play for any PlayStation owner."
-        ]
-    },
+    
     {
         "id": "a589d072-f53b-46d2-a69e-f0cd355b426e",
         "title": "God of War",
@@ -60,19 +61,19 @@
         ]
     },
     {
-        "id": "d8743d45-f19d-4c91-8db3-5a6a1e920f31",
-        "title": "The Last of Us Part I",
+        "id": "4ae54d29-e306-4a54-97dc-fc888693bde2",
+        "title": "God of War: Ragnarok",
         "genre": "Action-Adventure",
-        "developer": "Naughty Dog",
-        "releaseDate": "2022-09-02",
-        "rating": 9.5,
-        "image": "the-last-of-us-p1",
-        "developerImage": "naughty-dog",
+        "developer": "Santa Monica Studio",
+        "releaseDate": "2022-11-09",
+        "rating": 9.6,
+        "image": "god-of-war-ragnarok",
+        "developerImage": "santa-monica",
         "pressComments": [
-                "A stunning remake of a modern classic.",
-                "Heartbreaking and immersive storytelling.",
-                "Naughty Dog's attention to detail is unparalleled."
-            ]
+            "An emotional and epic continuation of Kratos' saga.",
+            "Incredible visuals and combat system.",
+            "A must-play for any PlayStation owner."
+        ]
     },
     {
         "id": "7c958dee-d1bf-4980-a0f4-5b2cb6d5739c",

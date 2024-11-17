@@ -15,18 +15,18 @@
         ]
     },
     {
-        "id": "4ae54d29-e306-4a54-97dc-fc888693bde2",
-        "title": "God of War: Ragnarok",
-        "genre": "Action-Adventure",
-        "developer": "Santa Monica Studio",
-        "releaseDate": "2022-11-09",
-        "rating": 9.6,
-        "image": "god-of-war-ragnarok",
-        "developerImage": "santa-monica",
+        "id": "7842caa7-7d61-4b0e-8544-08f38a7803af",
+        "title": "Spider-Man: Miles Morales",
+        "genre": "Action",
+        "developer": "Insomniac Games",
+        "releaseDate": "2020-11-12",
+        "rating": 9.0,
+        "image": "spiderman-miles-morales",
+        "developerImage": "insomniac",
         "pressComments": [
-            "An emotional and epic continuation of Kratos' saga.",
-            "Incredible visuals and combat system.",
-            "A must-play for any PlayStation owner."
+            "A shorter yet impactful Spider-Man experience.",
+            "Diverse and fun combat mechanics.",
+            "Miles Morales shines as the protagonist."
         ]
     },
     {
@@ -60,6 +60,21 @@
         ]
     },
     {
+        "id": "d8743d45-f19d-4c91-8db3-5a6a1e920f31",
+        "title": "The Last of Us Part I",
+        "genre": "Action-Adventure",
+        "developer": "Naughty Dog",
+        "releaseDate": "2022-09-02",
+        "rating": 9.5,
+        "image": "the-last-of-us-p1",
+        "developerImage": "naughty-dog",
+        "pressComments": [
+                "A stunning remake of a modern classic.",
+                "Heartbreaking and immersive storytelling.",
+                "Naughty Dog's attention to detail is unparalleled."
+            ]
+    },
+    {
         "id": "35a3a7eb-16c5-47a2-9a2a-15dca3e75268",
         "title": "Horizon Zero Dawn Remastered",
         "genre": "Action RPG",
@@ -72,21 +87,6 @@
             "A modern update to a beloved classic.",
             "Impressive visual upgrades for next-gen players.",
             "A must-play for newcomers and fans alike."
-        ]
-    },
-    {
-        "id": "7842caa7-7d61-4b0e-8544-08f38a7803af",
-        "title": "Spider-Man: Miles Morales",
-        "genre": "Action",
-        "developer": "Insomniac Games",
-        "releaseDate": "2020-11-12",
-        "rating": 9.0,
-        "image": "spiderman-miles-morales",
-        "developerImage": "insomniac",
-        "pressComments": [
-            "A shorter yet impactful Spider-Man experience.",
-            "Diverse and fun combat mechanics.",
-            "Miles Morales shines as the protagonist."
         ]
     },
     {
@@ -120,6 +120,21 @@
         ]
     },
     {
+        "id": "4ae54d29-e306-4a54-97dc-fc888693bde2",
+        "title": "God of War: Ragnarok",
+        "genre": "Action-Adventure",
+        "developer": "Santa Monica Studio",
+        "releaseDate": "2022-11-09",
+        "rating": 9.6,
+        "image": "god-of-war-ragnarok",
+        "developerImage": "santa-monica",
+        "pressComments": [
+            "An emotional and epic continuation of Kratos' saga.",
+            "Incredible visuals and combat system.",
+            "A must-play for any PlayStation owner."
+        ]
+    },
+    {
         "id": "7a4f3f82-2cf3-4e91-9986-d715eb17975a",
         "title": "Demon's Souls",
         "genre": "Action RPG",
@@ -150,6 +165,21 @@
         ]
     },
     {
+        "id": "7c958dee-d1bf-4980-a0f4-5b2cb6d5739c",
+        "title": "The Last of Us Part II",
+        "genre": "Action-Adventure",
+        "developer": "Naughty Dog",
+        "releaseDate": "2020-06-19",
+        "rating": 9.7,
+        "image": "the-last-of-us-p2",
+        "developerImage": "naughty-dog",
+        "pressComments": [
+                "One of the most ambitious games ever made.",
+                "Unflinching and brutally honest storytelling.",
+                "Pushing the boundaries of interactive storytelling."
+            ]
+    },
+    {
         "id": "d26f45c2-2fd5-474f-a180-abe5fcdb77ed",
         "title": "Final Fantasy VII Remake",
         "genre": "RPG",
@@ -164,34 +194,4 @@
             "One of the best remakes ever made."
         ]
     },
-    {
-        "id": "d8743d45-f19d-4c91-8db3-5a6a1e920f31",
-        "title": "The Last of Us Part I",
-        "genre": "Action-Adventure",
-        "developer": "Naughty Dog",
-        "releaseDate": "2022-09-02",
-        "rating": 9.5,
-        "image": "the-last-of-us-p1",
-        "developerImage": "naughty-dog",
-        "pressComments": [
-                "A stunning remake of a modern classic.",
-                "Heartbreaking and immersive storytelling.",
-                "Naughty Dog's attention to detail is unparalleled."
-            ]
-    },
-    {
-        "id": "7c958dee-d1bf-4980-a0f4-5b2cb6d5739c",
-        "title": "The Last of Us Part II",
-        "genre": "Action-Adventure",
-        "developer": "Naughty Dog",
-        "releaseDate": "2020-06-19",
-        "rating": 9.7,
-        "image": "the-last-of-us-p2",
-        "developerImage": "naughty-dog",
-        "pressComments": [
-                "One of the most ambitious games ever made.",
-                "Unflinching and brutally honest storytelling.",
-                "Pushing the boundaries of interactive storytelling."
-            ]
-    }
 ]

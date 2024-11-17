@@ -19,3 +19,9 @@ struct Game: Codable, Identifiable {
 }
 
 typealias Games = [Game]
+
+extension Game {
+    var ratingFormatted: String {
+        "\(rating.formatted(.number.precision(.integerAndFractionLength(integer: 1, fraction: 1)))) out of 10"
+    }
+}

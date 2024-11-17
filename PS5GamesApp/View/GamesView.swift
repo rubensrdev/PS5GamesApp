@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GamesView: View {
     
     @ObservedObject var gamesVM = GamesViewModel()
     
@@ -15,13 +15,15 @@ struct ContentView: View {
         NavigationStack {
             List {
                 ForEach(gamesVM.games) { game in
-                    Text(game.title)
+                    GameRow(game: game)
                 }
             }
+            .navigationTitle("PS5 Games")
         }
     }
 }
 
 #Preview {
-    ContentView(gamesVM: GamesViewModel(repository: RepositoryPreview()))
+    GamesView.preview
 }
+

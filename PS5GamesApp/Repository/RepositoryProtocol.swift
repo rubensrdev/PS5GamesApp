@@ -12,7 +12,6 @@ protocol RepositoryProtocol {
 }
 
 extension RepositoryProtocol {
-    
     func loadJSON<T>() throws -> T where T: Decodable {
         let data = try Data(contentsOf: url)
         return try JSONDecoder().decode(T.self, from: data)
