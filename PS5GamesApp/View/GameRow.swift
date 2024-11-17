@@ -27,11 +27,7 @@ struct GameRow: View {
             }
             .padding(.vertical,20)
             Spacer()
-            Image(game.image)
-                .resizable()
-                .scaledToFit()
-                .frame(maxWidth: 75)
-                .clipShape(RoundedRectangle(cornerRadius: 16))
+            GameCover(gameImage: game.image)
         }
     }
 }

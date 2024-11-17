@@ -10,6 +10,7 @@
 		455F8B152CE9EFD600E46A19 /* PreviewViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B142CE9EFD600E46A19 /* PreviewViews.swift */; };
 		455F8B1B2CE9F97B00E46A19 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B1A2CE9F97B00E46A19 /* Text.swift */; };
 		455F8B1D2CE9FCD900E46A19 /* GameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B1C2CE9FCD900E46A19 /* GameRow.swift */; };
+		455F8B1F2CE9FF0000E46A19 /* GameCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B1E2CE9FF0000E46A19 /* GameCover.swift */; };
 		45C2A8172CE55A2400B002DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C2A8112CE55A2400B002DF /* Preview Assets.xcassets */; };
 		45C2A8182CE55A2400B002DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C2A8132CE55A2400B002DF /* Assets.xcassets */; };
 		45C2A8192CE55A2400B002DF /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8142CE55A2400B002DF /* GamesView.swift */; };
@@ -27,6 +28,7 @@
 		455F8B142CE9EFD600E46A19 /* PreviewViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViews.swift; sourceTree = "<group>"; };
 		455F8B1A2CE9F97B00E46A19 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		455F8B1C2CE9FCD900E46A19 /* GameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRow.swift; sourceTree = "<group>"; };
+		455F8B1E2CE9FF0000E46A19 /* GameCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCover.swift; sourceTree = "<group>"; };
 		45C2A8002CE548D700B002DF /* PS5GamesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS5GamesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C2A8112CE55A2400B002DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45C2A8132CE55A2400B002DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		455F8B162CE9F5FE00E46A19 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				455F8B1E2CE9FF0000E46A19 /* GameCover.swift */,
 				455F8B1C2CE9FCD900E46A19 /* GameRow.swift */,
 				45C2A8142CE55A2400B002DF /* GamesView.swift */,
 				455F8B192CE9F95200E46A19 /* Styles */,
@@ -227,6 +230,7 @@
 				45C2A81A2CE55A2400B002DF /* PS5GamesAppApp.swift in Sources */,
 				455F8B1B2CE9F97B00E46A19 /* Text.swift in Sources */,
 				45C2A8282CE915C400B002DF /* GamesViewModel.swift in Sources */,
+				455F8B1F2CE9FF0000E46A19 /* GameCover.swift in Sources */,
 				455F8B152CE9EFD600E46A19 /* PreviewViews.swift in Sources */,
 				45C2A8252CE9137D00B002DF /* Repository.swift in Sources */,
 				45C2A82C2CE923CD00B002DF /* RepositoryProtocol.swift in Sources */,
