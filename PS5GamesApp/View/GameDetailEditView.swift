@@ -27,9 +27,15 @@ struct GameDetailEditView: View {
                 Divider()
                 Text("Game developer")
                     .bold()
-                TextField("Enter the game developer", text: $vm.developer )
-                    .textContentType(.organizationName)
-                    .accessibilityLabel(Text("Developer company of the game"))
+                Picker(selection: $vm.developer) {
+                    ForEach(gamesVM.developers, id: \.self) { developer in
+                        Text(developer)
+                    }
+                } label: {
+                    Text("Developer")
+                }
+                .accessibilityLabel("Developer company of the game")
+
                 Divider()
                 Text("Game rating")
                     .bold()
