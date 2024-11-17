@@ -7,7 +7,10 @@
 import SwiftUI
 
 extension GamesListView {
-    static let preview = GamesListView(gamesVM: GamesViewModel(repository: RepositoryPreview()))
+    static var preview: some View {
+        GamesListView()
+            .environmentObject(GamesViewModel(repository: RepositoryPreview()))
+    }
 }
 
 extension Game {

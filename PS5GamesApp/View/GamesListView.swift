@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct GamesListView: View {
-    
-    @ObservedObject var gamesVM = GamesViewModel()
+    @EnvironmentObject private var gamesVM: GamesViewModel
     
     var body: some View {
         NavigationStack {
