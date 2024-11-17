@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GameDetail: View {
+struct GameDetailView: View {
     let game: Game
     var body: some View {
         Form {
@@ -24,10 +24,7 @@ struct GameDetail: View {
                     VStack {
                         Spacer()
                         Image(game.image)
-                            .resizable()
-                            .scaledToFit()
-                            .frame(maxWidth: 200)
-                            .clipShape(RoundedRectangle(cornerRadius: 16))
+                            .detailImageStyle()
                         Spacer()
                         Text("Game cover")
                             .font(.footnote)
@@ -36,10 +33,7 @@ struct GameDetail: View {
                     VStack {
                         Spacer()
                         Image(game.developerImage)
-                            .resizable()
-                            .scaledToFit()
-                            .frame(maxWidth: 200)
-                            .clipShape(RoundedRectangle(cornerRadius: 16))
+                            .detailImageStyle()
                         Spacer()
                         Text("Developer logo")
                             .font(.footnote)
@@ -67,6 +61,6 @@ struct GameDetail: View {
 
 #Preview {
     NavigationStack {
-        GameDetail(game: .preview)
+        GameDetailView(game: .preview)
     }
 }

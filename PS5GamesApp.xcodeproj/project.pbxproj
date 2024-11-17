@@ -13,10 +13,12 @@
 		455F8B1F2CE9FF0000E46A19 /* GameCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B1E2CE9FF0000E46A19 /* GameCover.swift */; };
 		455F8B212CEA0EF300E46A19 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B202CEA0EF300E46A19 /* SearchBar.swift */; };
 		455F8B232CEA191100E46A19 /* OrderByButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B222CEA191100E46A19 /* OrderByButton.swift */; };
-		455F8B252CEA1EC800E46A19 /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B242CEA1EC800E46A19 /* GameDetail.swift */; };
+		455F8B252CEA1EC800E46A19 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B242CEA1EC800E46A19 /* GameDetailView.swift */; };
+		455F8B272CEA575000E46A19 /* GameDetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B262CEA575000E46A19 /* GameDetailEditView.swift */; };
+		455F8B2A2CEA579B00E46A19 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F8B292CEA579B00E46A19 /* Image.swift */; };
 		45C2A8172CE55A2400B002DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C2A8112CE55A2400B002DF /* Preview Assets.xcassets */; };
 		45C2A8182CE55A2400B002DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C2A8132CE55A2400B002DF /* Assets.xcassets */; };
-		45C2A8192CE55A2400B002DF /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8142CE55A2400B002DF /* GamesView.swift */; };
+		45C2A8192CE55A2400B002DF /* GamesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8142CE55A2400B002DF /* GamesListView.swift */; };
 		45C2A81A2CE55A2400B002DF /* PS5GamesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2A8152CE55A2400B002DF /* PS5GamesAppApp.swift */; };
 		45C2A81D2CE90DF500B002DF /* games.json in Resources */ = {isa = PBXBuildFile; fileRef = 45C2A81C2CE90DF500B002DF /* games.json */; };
 		45C2A81F2CE90E0100B002DF /* gamesPreview.json in Resources */ = {isa = PBXBuildFile; fileRef = 45C2A81E2CE90E0100B002DF /* gamesPreview.json */; };
@@ -34,11 +36,13 @@
 		455F8B1E2CE9FF0000E46A19 /* GameCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCover.swift; sourceTree = "<group>"; };
 		455F8B202CEA0EF300E46A19 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		455F8B222CEA191100E46A19 /* OrderByButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderByButton.swift; sourceTree = "<group>"; };
-		455F8B242CEA1EC800E46A19 /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
+		455F8B242CEA1EC800E46A19 /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		455F8B262CEA575000E46A19 /* GameDetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailEditView.swift; sourceTree = "<group>"; };
+		455F8B292CEA579B00E46A19 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		45C2A8002CE548D700B002DF /* PS5GamesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS5GamesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C2A8112CE55A2400B002DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45C2A8132CE55A2400B002DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		45C2A8142CE55A2400B002DF /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		45C2A8142CE55A2400B002DF /* GamesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListView.swift; sourceTree = "<group>"; };
 		45C2A8152CE55A2400B002DF /* PS5GamesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PS5GamesAppApp.swift; sourceTree = "<group>"; };
 		45C2A81C2CE90DF500B002DF /* games.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = games.json; sourceTree = "<group>"; };
 		45C2A81E2CE90E0100B002DF /* gamesPreview.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gamesPreview.json; sourceTree = "<group>"; };
@@ -63,12 +67,10 @@
 		455F8B162CE9F5FE00E46A19 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				45C2A8142CE55A2400B002DF /* GamesView.swift */,
-				455F8B1E2CE9FF0000E46A19 /* GameCover.swift */,
-				455F8B1C2CE9FCD900E46A19 /* GameRow.swift */,
-				455F8B202CEA0EF300E46A19 /* SearchBar.swift */,
-				455F8B222CEA191100E46A19 /* OrderByButton.swift */,
-				455F8B242CEA1EC800E46A19 /* GameDetail.swift */,
+				45C2A8142CE55A2400B002DF /* GamesListView.swift */,
+				455F8B242CEA1EC800E46A19 /* GameDetailView.swift */,
+				455F8B262CEA575000E46A19 /* GameDetailEditView.swift */,
+				455F8B282CEA575A00E46A19 /* Components */,
 				455F8B192CE9F95200E46A19 /* Styles */,
 			);
 			path = View;
@@ -78,8 +80,20 @@
 			isa = PBXGroup;
 			children = (
 				455F8B1A2CE9F97B00E46A19 /* Text.swift */,
+				455F8B292CEA579B00E46A19 /* Image.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		455F8B282CEA575A00E46A19 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				455F8B1E2CE9FF0000E46A19 /* GameCover.swift */,
+				455F8B1C2CE9FCD900E46A19 /* GameRow.swift */,
+				455F8B202CEA0EF300E46A19 /* SearchBar.swift */,
+				455F8B222CEA191100E46A19 /* OrderByButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		45C2A7F72CE548D700B002DF = {
@@ -234,14 +248,16 @@
 			files = (
 				45C2A82A2CE9228E00B002DF /* RepositoryPreview.swift in Sources */,
 				455F8B212CEA0EF300E46A19 /* SearchBar.swift in Sources */,
-				45C2A8192CE55A2400B002DF /* GamesView.swift in Sources */,
+				45C2A8192CE55A2400B002DF /* GamesListView.swift in Sources */,
 				455F8B1D2CE9FCD900E46A19 /* GameRow.swift in Sources */,
-				455F8B252CEA1EC800E46A19 /* GameDetail.swift in Sources */,
+				455F8B252CEA1EC800E46A19 /* GameDetailView.swift in Sources */,
 				45C2A8222CE910DF00B002DF /* Game.swift in Sources */,
 				45C2A81A2CE55A2400B002DF /* PS5GamesAppApp.swift in Sources */,
 				455F8B1B2CE9F97B00E46A19 /* Text.swift in Sources */,
 				45C2A8282CE915C400B002DF /* GamesViewModel.swift in Sources */,
+				455F8B2A2CEA579B00E46A19 /* Image.swift in Sources */,
 				455F8B1F2CE9FF0000E46A19 /* GameCover.swift in Sources */,
+				455F8B272CEA575000E46A19 /* GameDetailEditView.swift in Sources */,
 				455F8B152CE9EFD600E46A19 /* PreviewViews.swift in Sources */,
 				45C2A8252CE9137D00B002DF /* Repository.swift in Sources */,
 				455F8B232CEA191100E46A19 /* OrderByButton.swift in Sources */,

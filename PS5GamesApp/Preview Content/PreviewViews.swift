@@ -6,8 +6,8 @@
 //
 import SwiftUI
 
-extension GamesView {
-    static let preview = GamesView(gamesVM: GamesViewModel(repository: RepositoryPreview()))
+extension GamesListView {
+    static let preview = GamesListView(gamesVM: GamesViewModel(repository: RepositoryPreview()))
 }
 
 extension Game {

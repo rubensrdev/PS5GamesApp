@@ -11,7 +11,7 @@ import SwiftUI
 struct PS5GamesAppApp: App {
     var body: some Scene {
         WindowGroup {
-            GamesView()
+            GamesListView()
                 .onAppear {
                     print("URL DOC directory: \(URL.documentsDirectory)")
                 }

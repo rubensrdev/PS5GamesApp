@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GamesView: View {
+struct GamesListView: View {
     
     @ObservedObject var gamesVM = GamesViewModel()
     
@@ -25,7 +25,7 @@ struct GamesView: View {
             }
             .navigationTitle("PS5 Games")
             .navigationDestination(for: Game.self, destination: { game in
-                GameDetail(game: game)
+                GameDetailView(game: game)
             })
             .searchable(text: $gamesVM.search, prompt: "Search a game title") {
                 ForEach(gamesVM.developers, id: \.self) { developer in
@@ -39,6 +39,6 @@ struct GamesView: View {
 }
 
 #Preview {
-    GamesView.preview
+    GamesListView.preview
 }
 
