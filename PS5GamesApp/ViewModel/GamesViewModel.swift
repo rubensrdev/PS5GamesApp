@@ -20,12 +20,20 @@ final class GamesViewModel: ObservableObject {
     @Published var search: String = ""
     @Published var orderOption: OrderOptions = .byId
     
+    var developers: [String] {
+        Array(Set(games.map(\.developer))).sorted()
+    }
+    
     var filteredGames: Games {
         games.filter { game in
             if search.isEmpty {
                 true
             } else {
-                game.title.localizedCaseInsensitiveContains(search)
+                if search.hasPrefix("🎮") {
+                    game.developer == String(search.dropFirst(2))
+                } else {
+                    game.title.localizedCaseInsensitiveContains(search)
+                }
             }
         }
         .sorted { g1, g2 in

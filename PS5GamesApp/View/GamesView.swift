@@ -22,7 +22,12 @@ struct GamesView: View {
                 .onMove(perform: gamesVM.moveGame)
             }
             .navigationTitle("PS5 Games")
-            .searchable(text: $gamesVM.search, prompt: "Search a game title")
+            .searchable(text: $gamesVM.search, prompt: "Search a game title") {
+                ForEach(gamesVM.developers, id: \.self) { developer in
+                    Text(developer)
+                        .searchCompletion("🎮 \(developer)")
+                }
+            }
             .orderButton(order: $gamesVM.orderOption)
         }
     }
