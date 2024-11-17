@@ -26,3 +26,7 @@ extension Game {
         ]
     )
 }
+
+extension GameDetailEditView {
+    static let preview = GameDetailEditView(vm: GameEditViewModel(game: .preview))
+}

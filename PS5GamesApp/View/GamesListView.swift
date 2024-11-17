@@ -25,7 +25,8 @@ struct GamesListView: View {
             }
             .navigationTitle("PS5 Games")
             .navigationDestination(for: Game.self, destination: { game in
-                GameDetailView(game: game)
+                //GameDetailView(game: game)
+                GameDetailEditView(vm: GameEditViewModel(game: game))
             })
             .searchable(text: $gamesVM.search, prompt: "Search a game title") {
                 ForEach(gamesVM.developers, id: \.self) { developer in

@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct GameDetailEditView: View {
+    
+    @ObservedObject var vm: GameEditViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            VStack(alignment: .leading) {
+                Text("Game title")
+                    .bold()
+                TextField("Enter the game title", text: $vm.title )
+            }
+        }
     }
 }
 
 #Preview {
-    GameDetailEditView()
+    GameDetailEditView.preview
 }
