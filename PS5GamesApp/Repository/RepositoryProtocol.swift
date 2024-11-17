@@ -13,7 +13,11 @@ protocol RepositoryProtocol {
 
 extension RepositoryProtocol {
     func loadJSON<T>() throws -> T where T: Decodable {
-        let data = try Data(contentsOf: url)
+        var fileURL = url
+        if FileManager.default.fileExists(atPath: urlDoc.path()) {
+            fileURL = urlDoc
+        }
+        let data = try Data(contentsOf: fileURL)
         return try JSONDecoder().decode(T.self, from: data)
     }
     
