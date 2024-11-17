@@ -35,7 +35,7 @@ struct GameDetailEditView: View {
                     Text("Developer")
                 }
                 .accessibilityLabel("Developer company of the game")
-
+                //.pickerStyle(.navigationLink)
                 Divider()
                 Text("Game rating")
                     .bold()
@@ -44,6 +44,13 @@ struct GameDetailEditView: View {
                           format: .number.precision(.integerAndFractionLength(integer: 1, fraction: 1)))
                     .keyboardType(.numberPad)
                     .accessibilityLabel(Text("Rating of the game"))
+                Divider()
+                Text("Press comments")
+                    .bold()
+                ForEach($vm.pressComments) { $pressComment in
+                    TextField("Enter the comment", text: $pressComment.comment)
+                        .accessibilityLabel(Text("Comment of the game"))
+                }
                 
             }
         }

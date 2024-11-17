@@ -7,6 +7,11 @@
 
 import Foundation
 
+struct PressComment: Identifiable {
+    let id = UUID()
+    var comment: String
+}
+
 final class GameEditViewModel: ObservableObject {
     
     let game: Game
@@ -15,7 +20,7 @@ final class GameEditViewModel: ObservableObject {
     @Published var genre: String
     @Published var developer: String
     @Published var rating: Double
-    @Published var pressComments: [String]
+    @Published var pressComments: [PressComment]
     
     init (game: Game) {
         self.game = game
@@ -23,6 +28,6 @@ final class GameEditViewModel: ObservableObject {
         genre = game.genre
         developer = game.developer
         rating = game.rating
-        pressComments = game.pressComments
+        pressComments = game.pressComments.map { PressComment(comment: $0) }
     }
 }
