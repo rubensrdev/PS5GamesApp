@@ -31,5 +31,9 @@ extension Game {
 }
 
 extension GameDetailEditView {
-    static let preview = GameDetailEditView(vm: GameEditViewModel(game: .preview))
+    //static let preview = GameDetailEditView(vm: GameEditViewModel(game: .preview))
+    static var preview: some View {
+        GameDetailEditView(vm: GameEditViewModel(game: .preview))
+            .environmentObject(GamesViewModel(repository: RepositoryPreview()))
+    }
 }
