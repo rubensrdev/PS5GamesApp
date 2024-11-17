@@ -37,5 +37,7 @@ struct GameRow: View {
 }
 
 #Preview {
-    GameRow(game: .preview)
+    List {
+        GameRow(game: .preview)
+    }
 }
