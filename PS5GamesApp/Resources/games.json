@@ -15,21 +15,6 @@
         ]
     },
     {
-        "id": "7842caa7-7d61-4b0e-8544-08f38a7803af",
-        "title": "Spider-Man: Miles Morales",
-        "genre": "Action",
-        "developer": "Insomniac Games",
-        "releaseDate": "2020-11-12",
-        "rating": 9.0,
-        "image": "spiderman-miles-morales",
-        "developerImage": "insomniac",
-        "pressComments": [
-            "A shorter yet impactful Spider-Man experience.",
-            "Diverse and fun combat mechanics.",
-            "Miles Morales shines as the protagonist."
-        ]
-    },
-    {
         "id": "a589d072-f53b-46d2-a69e-f0cd355b426e",
         "title": "God of War",
         "genre": "Action-Adventure",
@@ -194,4 +179,19 @@
             "One of the best remakes ever made."
         ]
     },
+    {
+        "id": "7842caa7-7d61-4b0e-8544-08f38a7803af",
+        "title": "Spider-Man: Miles Morales",
+        "genre": "Action",
+        "developer": "Insomniac Games",
+        "releaseDate": "2020-11-12",
+        "rating": 9.0,
+        "image": "spiderman-miles-morales",
+        "developerImage": "insomniac",
+        "pressComments": [
+            "A shorter yet impactful Spider-Man experience.",
+            "Diverse and fun combat mechanics.",
+            "Miles Morales shines as the protagonist."
+        ]
+    }
 ]

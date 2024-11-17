@@ -17,6 +17,8 @@ struct GamesView: View {
                 ForEach(gamesVM.games) { game in
                     GameRow(game: game)
                 }
+                .onDelete(perform: gamesVM.deleteGame)
+                .onMove(perform: gamesVM.moveGame)
             }
             .navigationTitle("PS5 Games")
         }

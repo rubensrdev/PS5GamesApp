@@ -26,4 +26,11 @@ final class GamesViewModel: ObservableObject {
         }
     }
     
+    func deleteGame(indexSet: IndexSet) {
+        games.remove(atOffsets: indexSet)
+    }
+    
+    func moveGame(indexSet: IndexSet, to: Int) {
+        games.move(fromOffsets: indexSet, toOffset: to)
+    }
 }
