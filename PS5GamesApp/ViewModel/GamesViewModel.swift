@@ -17,6 +17,18 @@ final class GamesViewModel: ObservableObject {
         }
     }
     
+    @Published var search: String = ""
+    
+    var filteredGames: Games {
+        games.filter { game in
+            if search.isEmpty {
+                true
+            } else {
+                game.title.localizedCaseInsensitiveContains(search)
+            }
+        }
+    }
+    
     init(repository: RepositoryProtocol = Repository()) {
         self.repository = repository
         do {

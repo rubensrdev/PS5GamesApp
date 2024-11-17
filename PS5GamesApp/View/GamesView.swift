@@ -14,13 +14,14 @@ struct GamesView: View {
     var body: some View {
         NavigationStack {
             List {
-                ForEach(gamesVM.games) { game in
+                ForEach(gamesVM.filteredGames) { game in
                     GameRow(game: game)
                 }
                 .onDelete(perform: gamesVM.deleteGame)
                 .onMove(perform: gamesVM.moveGame)
             }
             .navigationTitle("PS5 Games")
+            .searchable(text: $gamesVM.search, prompt: "Search a game title")
         }
     }
 }
