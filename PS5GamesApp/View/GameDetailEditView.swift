@@ -51,11 +51,25 @@ struct GameDetailEditView: View {
                     TextField("Enter the comment", text: $pressComment.comment)
                         .accessibilityLabel(Text("Comment of the game"))
                 }
-                
             }
         }
         .navigationTitle("Edit game")
         .navigationBarTitleDisplayMode(.inline)
+        .alert("Validation alert", isPresented: $vm.showAlert, actions: {}, message: {
+            Text(vm.errorMsg)
+        })
+        .toolbar {
+            ToolbarItem(placement: .confirmationAction) {
+                Button {
+                    if let updatedGame = vm.validateGame() {
+                        
+                    }
+                } label: {
+                    Text("Save")
+                }
+
+            }
+        }
     }
 }
 
