@@ -75,4 +75,10 @@ final class GamesViewModel: ObservableObject {
     func moveGame(indexSet: IndexSet, to: Int) {
         games.move(fromOffsets: indexSet, toOffset: to)
     }
+    
+    func updateGame(game: Game) {
+        if let index = games.firstIndex(where: { game.id == $0.id }) {
+            games[index] = game
+        }
+    }
 }

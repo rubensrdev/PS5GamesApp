@@ -62,7 +62,7 @@ struct GameDetailEditView: View {
             ToolbarItem(placement: .confirmationAction) {
                 Button {
                     if let updatedGame = vm.validateGame() {
-                        
+                        gamesVM.updateGame(game: updatedGame)
                     }
                 } label: {
                     Text("Save")
