@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct GameDetailEditView: View {
+    @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var gamesVM: GamesViewModel
     @ObservedObject var vm: GameEditViewModel
     
@@ -55,14 +56,21 @@ struct GameDetailEditView: View {
         }
         .navigationTitle("Edit game")
         .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden()
         .alert("Validation alert", isPresented: $vm.showAlert, actions: {}, message: {
             Text(vm.errorMsg)
         })
         .toolbar {
+            ToolbarItem(placement: .cancellationAction) {
+                Button { dismiss() } label: {
+                    Text("Cancel")
+                }
+            }
             ToolbarItem(placement: .confirmationAction) {
                 Button {
                     if let updatedGame = vm.validateGame() {
                         gamesVM.updateGame(game: updatedGame)
+                        dismiss()
                     }
                 } label: {
                     Text("Save")
